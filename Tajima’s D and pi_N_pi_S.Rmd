@@ -3,7 +3,6 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-
 # Assume the variables S, pi, and eta are already defined with the data
 # Represent segregating sites, nucleotide diversity, and total mutations, respectively
 
