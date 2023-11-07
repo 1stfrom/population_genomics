@@ -5,7 +5,7 @@ output: html_notebook
 
 
 # Assume the variables S, pi, and eta are already defined with the data
-# They represent segregating sites, nucleotide diversity, and total mutations, respectively
+# Represent segregating sites, nucleotide diversity, and total mutations, respectively
 
 # Calculate Tajima's D
 tajimas_d <- function(n, S, eta, pi) {
@@ -44,15 +44,4 @@ print(paste("Tajima's D:", tajima_d_result))
 # Calculate pi_N/pi_S ratio
 pi_n_pi_s_result <- pi_n_pi_s_ratio(pi_N, pi_S)
 print(paste("pi_N/pi_S ratio:", pi_n_pi_s_result))
-
-
-
-
-
-
-
-
-
-
-
 
